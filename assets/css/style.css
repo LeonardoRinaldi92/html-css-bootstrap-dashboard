@@ -62,7 +62,10 @@ main {
     background-repeat: no-repeat;
 }
 
-#sidebar 
+#sidebar .icon-top-sidebar .text-center:hover{
+    background-color: rgba(170, 170, 170, 0.696);
+
+}
 
 
 
@@ -73,7 +76,7 @@ main {
 }
 
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:768px) {
     #logo,
     #bell {
         width: 150px;
