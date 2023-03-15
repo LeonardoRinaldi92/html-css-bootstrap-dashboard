@@ -1,5 +1,6 @@
 main {
     height: 100vh;
+    width: 100%
 }
 
 #header {
@@ -7,6 +8,28 @@ main {
     width: 100%;
     background-color:rgb(248,249,250);
 }
+
+#header .row {
+    height: 100px;
+}
+
+#searchbar input[type=text] {
+    margin-left: 1rem;
+    width: 100%;
+    border-radius: 8px;
+    padding: 6px 2.1rem;
+    border-color: transparent;
+    background-color: rgb(229,229,229);
+    background-repeat: no-repeat;
+    background-image: url(../img/magnifying-glass-solid.svg);
+    background-position: 7px;
+    background-size: 1.2rem;
+
+}
+
+#searchbar input[type=text]:focus {
+    border: 2px solid #9aa8b9;
+  }
 
 #sidebar {
     height: calc(100vh - 100px);
@@ -18,23 +41,30 @@ main {
 }
 
 #centralpage {
-    width: 100%;
+    width: calc(100% - 100px);
     height: calc(100vh - 100px);
-    overflow: auto;
     background-color: rgb(248,249,250);
 }
 
-#logo {
+
+
+#logo,
+#bell {
     width: 100px;
 }
 
-@media screen and (min-width:1199px) {
-    #logo {
+@media screen and (min-width:992px) {
+    #logo,
+    #bell {
         width: 150px;
     }
     
     #sidebar {
         width: 150px;
+    }
+
+    #centralpage {
+        width: calc(100% - 150px);
     }
     
 }
