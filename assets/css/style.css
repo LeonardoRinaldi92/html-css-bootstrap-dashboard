@@ -23,3 +23,18 @@ main {
     overflow: auto;
     background-color: rgb(248,249,250);
 }
+
+#logo {
+    width: 100px;
+}
+
+@media screen and (min-width:1199px) {
+    #logo {
+        width: 150px;
+    }
+    
+    #sidebar {
+        width: 150px;
+    }
+    
+}
