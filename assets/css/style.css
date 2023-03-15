@@ -30,15 +30,6 @@ main {
     border: 2px solid #9aa8b9;
 }
 
-#sidebar {
-    height: calc(100vh - 100px);
-    width: 100px;
-    background-color: rgb(5,30,52);
-    background-image: url(../img/sidebar-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 #bell {
     width: 50px;
 }
@@ -54,11 +45,6 @@ main {
     display: none;
 }
 
-#centralpage {
-    width: calc(100% - 100px);
-    height: calc(100vh - 100px);
-    background-color: rgb(248,249,250);
-}
 #bell .dropdown-toggle::after {
     display:none !important;
 }
@@ -66,6 +52,26 @@ main {
 #logo {
     width: 100px;
 }
+
+#sidebar {
+    height: calc(100vh - 100px);
+    width: 100px;
+    background-color: rgb(5,30,52);
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sidebar 
+
+
+
+#centralpage {
+    width: calc(100% - 100px);
+    height: calc(100vh - 100px);
+    background-color: rgb(248,249,250);
+}
+
 
 @media screen and (min-width:992px) {
     #logo,
