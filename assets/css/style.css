@@ -100,16 +100,24 @@ main {
 }
 
 .class-logo {
-    padding-left: 2rem!important;
+    padding-left: 2.5rem!important;
 }
 
 #centralpage #main-section .card-body .table tbody tr .class-logo{
     content: '';
     background-image: url(../img/class-avatar.jpg);
-    background-size: 1rem;
+    background-size: 1.7rem;
     background-repeat: no-repeat;
     background-position: 10px;
 
+}
+
+td {
+    vertical-align: middle;
+}
+
+tr:hover td {
+    background-color: rgba(0, 0, 0, 0.046);
 }
  
 @media screen and (max-width:768px) {
