@@ -98,6 +98,19 @@ main {
 #centralpage #nuovostudente button {
     border: 1px solid white;
 }
+
+.class-logo {
+    padding-left: 2rem!important;
+}
+
+#centralpage #main-section .card-body .table tbody tr .class-logo{
+    content: '';
+    background-image: url(../img/class-avatar.jpg);
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: 10px;
+
+}
  
 @media screen and (max-width:768px) {
 
