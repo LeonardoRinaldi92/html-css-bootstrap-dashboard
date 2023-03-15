@@ -1,0 +1,25 @@
+main {
+    height: 100vh;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    background-color:rgb(248,249,250);
+}
+
+#sidebar {
+    height: calc(100vh - 100px);
+    width: 100px;
+    background-color: rgb(5,30,52);
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#centralpage {
+    width: 100%;
+    height: calc(100vh - 100px);
+    overflow: auto;
+    background-color: rgb(248,249,250);
+}
