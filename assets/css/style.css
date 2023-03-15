@@ -119,6 +119,15 @@ td {
 tr:hover td {
     background-color: rgba(0, 0, 0, 0.046);
 }
+
+.accordion-item {
+    border: 0!important;
+}
+
+hr {
+    margin: 0!important;
+}
+
  
 @media screen and (max-width:768px) {
 

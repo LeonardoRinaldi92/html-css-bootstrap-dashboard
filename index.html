@@ -504,15 +504,18 @@
                                                 </span>
                                                 <div class="input-group mb-3">
                                                     <input type="file" class="form-control" id="inputGroupFile02">
-                                                </div>                                               
+                                                </div>
                                             </div>
 
                                             <div class="col-12">
                                                 <div class="form-check mb-3">
-                                                    <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
-                                                    <label class="form-check-label" for="validationFormCheck1">Accetta termini e condizioni per Proseguire</label>
-                                                    <div class="invalid-feedback">Impossibile proseguire finche non vengo accettati termini e condizioni!</div>
-                                                  </div>
+                                                    <input type="checkbox" class="form-check-input"
+                                                        id="validationFormCheck1" required>
+                                                    <label class="form-check-label" for="validationFormCheck1">Accetta
+                                                        termini e condizioni per Proseguire</label>
+                                                    <div class="invalid-feedback">Impossibile proseguire finche non
+                                                        vengo accettati termini e condizioni!</div>
+                                                </div>
                                             </div>
                                             <div class="col-3 col-md-1 me-2 mt-3">
                                                 <button type="submit" class="btn btn-primary">Salva</button>
@@ -539,219 +542,326 @@
                 <!-- sezione centrale -->
                 <section id="main-section">
                     <div class="container-fluid overflow-auto">
-                        <div class="row">
-                            <!-- Prossime classi -->
-                            <div class="col-12 col-xl-8 pt-3">
-                                <div class="card" class="w-100">
-                                    <div class="card-header">
-                                        <h5>
-                                           Prossime classi 
-                                        </h5>
-                                      </div>
-                                    <div class="card-body">
-                                        <table class="table">
-                                            <thead>
-                                              <tr>
-                                                <th scope="col" class="w-50">Nome</th>
-                                                <th scope="col" class="d-none d-xl-table-cell">Data inizio</th>
-                                                <th scope="col" class="d-none d-xl-table-cell">ROI</th>
-                                                <th scope="col">Stato</th>
-                                                <th scope="col">Azioni</th>
-                                              </tr>
-                                            </thead>
-                                            <tbody>
-                                              <tr>
-                                                <td class="class-logo">
-                                                    Classe 75
-                                                </td>
-                                                <td  class="d-none d-xl-table-cell">
-                                                    7 feb 2023
-                                                </td>                                              
-                                                <td  class="d-none d-xl-table-cell">
-                                                    20%
-                                                </td>
-                                                <td>
-                                                    <span class="badge rounded-pill text-bg-success">Done</span>
-                                                </td>
-                                                <td>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
+                        <div class="row justify-content-between">
+                            <!-- scomparto sinistra -->
+                            <div class="col-12 col-xl-8 my-4 ">
+                                <div>
+                                    <div class="card" class="w-100">
+                                        <div class="card-header">
+                                            <h5>
+                                                Prossime classi
+                                            </h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col" class="w-50">Nome</th>
+                                                        <th scope="col" class="d-none d-xl-table-cell">Data inizio</th>
+                                                        <th scope="col" class="d-none d-xl-table-cell">ROI</th>
+                                                        <th scope="col">Stato</th>
+                                                        <th scope="col">Azioni</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="class-logo">
+                                                            Classe 75
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            7 feb 2023
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="badge rounded-pill text-bg-success">Done</span>
+                                                        </td>
+                                                        <td>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-pencil"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-trash-can"></i>
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="class-logo">
+                                                            Classe 76
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            8 feb 2023
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="badge rounded-pill text-bg-success">Done</span>
+                                                        </td>
+                                                        <td>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-pencil"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-trash-can"></i>
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="class-logo">
+                                                            Classe 77
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            11 feb 2023
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span
+                                                                class="badge rounded-pill text-bg-warning text-white">Process</span>
+                                                        </td>
+                                                        <td>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-pencil"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-trash-can"></i>
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="class-logo">
+                                                            Classe 78
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            17 feb 2023
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="badge rounded-pill text-bg-success">Done</span>
+                                                        </td>
+                                                        <td>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-pencil"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-trash-can"></i>
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="class-logo">
+                                                            Classe 79
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            20 feb 2023
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="badge rounded-pill text-bg-danger">Failed</span>
+                                                        </td>
+                                                        <td>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-pencil"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-trash-can"></i>
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="class-logo">
+                                                            Classe 80
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            22 feb 2023
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="badge rounded-pill text-bg-success">Done</span>
+                                                        </td>
+                                                        <td>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-pencil"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-trash-can"></i>
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="class-logo">
+                                                            Classe 81
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            24 feb 2023
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="badge rounded-pill text-bg-danger">Failed</span>
+                                                        </td>
+                                                        <td>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-pencil"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-trash-can"></i>
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="class-logo">
+                                                            Classe 81
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            27 feb 2023
+                                                        </td>
+                                                        <td class="d-none d-xl-table-cell">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="badge rounded-pill text-bg-success">Done</span>
+                                                        </td>
+                                                        <td>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-pencil"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-secondary">
+                                                                <i class="fa-solid fa-trash-can"></i>
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card w-100 mt-4">
+                                        <div class="card-header">
+                                            <h5>
+                                                F.A.Q.
+                                            </h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="accordion" id="accordionExample">
+                                                <div class="accordion-item">
+                                                    <h5 class="accordion-header" id="flush-headingOne">
+                                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        <strong>
+                                                            Come aggiungere un nuovo studente?
+                                                        </strong>
+                                                      </button>
+                                                    </h5>
+                                                    <hr>
+                                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                                        <hr>
+                                                    </div>
+                                                </div>     
+                                                <div class="accordion-item">
+                                                  <h5 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">  
+                                                        <strong>
+                                                            Come posso acedere alle informazioni del mio account?        
+                                                        </strong>  
                                                     </button>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash-can"></i>
-                                                    </button>                      
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td class="class-logo">
-                                                    Classe 76
-                                                </td>
-                                                <td  class="d-none d-xl-table-cell">
-                                                    8 feb 2023
-                                                </td>                                              
-                                                <td  class="d-none d-xl-table-cell">
-                                                    20%
-                                                </td>
-                                                <td>
-                                                    <span class="badge rounded-pill text-bg-success">Done</span>
-                                                </td>
-                                                <td>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
+                                                  </h5>
+                                                  <hr>
+                                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                    </div>
+                                                    <hr>
+                                                  </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                  <h5 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                      <strong>
+                                                         Posso usare questa dashborad da mobile?
+                                                      </strong>
                                                     </button>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash-can"></i>
-                                                    </button>                      
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td class="class-logo">
-                                                    Classe 77
-                                                </td>
-                                                <td class="d-none d-xl-table-cell">
-                                                    11 feb 2023
-                                                </td>                                              
-                                                <td class="d-none d-xl-table-cell">
-                                                    20%
-                                                </td>
-                                                <td>
-                                                    <span class="badge rounded-pill text-bg-warning text-white">Process</span>
-                                                </td>
-                                                <td>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash-can"></i>
-                                                    </button>                      
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td class="class-logo">
-                                                    Classe 78
-                                                </td>
-                                                <td class="d-none d-xl-table-cell">
-                                                    17 feb 2023
-                                                </td>                                              
-                                                <td class="d-none d-xl-table-cell">
-                                                    20%
-                                                </td>
-                                                <td>
-                                                    <span class="badge rounded-pill text-bg-success">Done</span>
-                                                </td>
-                                                <td>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash-can"></i>
-                                                    </button>                      
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td class="class-logo">
-                                                    Classe 79
-                                                </td>
-                                                <td class="d-none d-xl-table-cell">
-                                                    20 feb 2023
-                                                </td>                                              
-                                                <td class="d-none d-xl-table-cell">
-                                                    20%
-                                                </td>
-                                                <td>
-                                                    <span class="badge rounded-pill text-bg-danger">Failed</span>
-                                                </td>
-                                                <td>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash-can"></i>
-                                                    </button>                      
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td class="class-logo">
-                                                    Classe 80
-                                                </td>
-                                                <td class="d-none d-xl-table-cell">
-                                                    22 feb 2023
-                                                </td>                                              
-                                                <td class="d-none d-xl-table-cell">
-                                                    20%
-                                                </td>
-                                                <td>
-                                                    <span class="badge rounded-pill text-bg-success">Done</span>
-                                                </td>
-                                                <td>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash-can"></i>
-                                                    </button>                      
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td class="class-logo">
-                                                    Classe 81
-                                                </td>
-                                                <td class="d-none d-xl-table-cell">
-                                                    24 feb 2023
-                                                </td>                                              
-                                                <td class="d-none d-xl-table-cell">
-                                                    20%
-                                                </td>
-                                                <td>
-                                                    <span class="badge rounded-pill text-bg-danger">Failed</span>
-                                                </td>
-                                                <td>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash-can"></i>
-                                                    </button>                      
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td class="class-logo">
-                                                    Classe 81
-                                                </td>
-                                                <td class="d-none d-xl-table-cell">
-                                                    27 feb 2023
-                                                </td>                                              
-                                                <td class="d-none d-xl-table-cell">
-                                                    20%
-                                                </td>
-                                                <td>
-                                                    <span class="badge rounded-pill text-bg-success">Done</span>
-                                                </td>
-                                                <td>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash-can"></i>
-                                                    </button>                      
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                  </div>
-
+                                                  </h5>
+                                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>                                          
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-12 col-xl-4"></div>
-                            <div class="col-12 col-xl-8"></div>
-                            <div class="col-12 col-xl-4"></div>
-
+                            <!-- SCOMParto destra -->
+                            <div class="col-12 col-xl-4 mt-xl-4 ">
+                                <div>
+                                    <!-- to do list -->
+                                    <div class="card" class="w-100 mb-4">
+                                        <div class="card-header">
+                                            <h5>
+                                                Prossime classi
+                                            </h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-2" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    Kickoff nuove classi
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-2" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    Lezione su Bootstrap 5 in classe #75
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-2" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    Controllare username github studenti
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- grafico utenti -->
+                                    <div class="card mt-4">
+                                        <div class="p-3">
+                                            <div class="card">
+                                                <img src="./assets/img/stats.jpeg" class="card-img-top" alt="grafico">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Utenti attivi</h5>
+                                                    <h6 class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</h6>
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">Gennaio 1200</li>
+                                                    <li class="list-group-item">Febbario 2200</li>
+                                                    <li class="list-group-item">31</li>
+                                                </ul>
+                                                <div class="card-body">
+                                                    <a href="#" class="card-link">
+                                                        <h6>
+                                                            Visualizza report approfondito
+                                                        </h6>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                    </div>
                 </section>
-
-
-
             </section>
         </div>
 
